@@ -1,0 +1,32 @@
+{
+  "name": "strp",
+  "description": "strp is useful String object extensions",
+  "version": "0.0.1",
+  "author": "insanehong <insanehong@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/insanehong/strp.git"
+  },
+  "bugs": {
+    "url": "http://github.com/insanehong/strp/issues"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+		"test" : "tap test/*.js"   
+  },
+  "main": "strp.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+  	"tape" : "*"
+	},
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/insanehong/gig/blob/master/LICENSE"
+    }
+  ],
+  "keywords": ["strp","str","string"]
+}

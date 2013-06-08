@@ -73,3 +73,7 @@ var ucfirst = strp.ucfirst = function(str) {
 
 	return first.concat(s.slice(1));
 };
+
+var shuffle = strp.shuffle = function(str) {
+	return str.split("").sort(function() { return 0.5 - Math.random();}).join("");
+};

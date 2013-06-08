@@ -27,7 +27,7 @@ var strp = require('strp');
 ```
 strp.rtrim('hello world   ');
 
-// hello world
+// "hello world"
 ```
 
 ### ltrim
@@ -35,7 +35,7 @@ strp.rtrim('hello world   ');
 ```
 strp.rtrim('    hello world');
 
-// helloworld
+// "hello world"
 ```
 
 ### trim
@@ -43,7 +43,7 @@ strp.rtrim('    hello world');
 ```
 strp.rtrim('    hello world    ');
 
-// helloworld
+// "hellow orld"
 ```
 
 ### join
@@ -51,7 +51,7 @@ strp.rtrim('    hello world    ');
 ```
 strp.join('hello', 'world');
 
-// helloworld
+// "helloworld"
 ```
 
 ### joins
@@ -59,7 +59,7 @@ strp.join('hello', 'world');
 ```
 strp.joins('hello', 'world');
 
-// hello world
+// "hello world"
 ```
 
 ### joinln
@@ -67,8 +67,8 @@ strp.joins('hello', 'world');
 ```
 strp.joinln('hello', 'world');
 
-// hello
-// world
+// "hello"
+// "world"
 ```
 
 ### lpad
@@ -76,7 +76,7 @@ strp.joinln('hello', 'world');
 ```
 strp.lpad('100',10,'0');
 
-// 0000000100
+// "0000000100"
 ```
 
 ### rpad
@@ -84,7 +84,7 @@ strp.lpad('100',10,'0');
 ```
 strp.rpad('100',10,'0');
 
-// 1000000000
+// "1000000000"
 ```
 
 ### ucfirst
@@ -92,7 +92,7 @@ strp.rpad('100',10,'0');
 ```
 strp.ucfirst('hello world');
 
-// Hello world
+// "Hello world"
 ```
 
 ### lcfirst
@@ -100,7 +100,7 @@ strp.ucfirst('hello world');
 ```
 strp.ucfirst('HELLO WORLD');
 
-// hELLO WORLD
+// "hELLO WORLD"
 ```
 
 ### shuffle
@@ -108,7 +108,7 @@ strp.ucfirst('HELLO WORLD');
 ```
 strp.shuffle('hello world');
 
-// ol wohldrewl
+// "ol wohldrewl"
 ```
 
 ### reverse
@@ -116,7 +116,7 @@ strp.shuffle('hello world');
 ```
 strp.reverse('hello world');
 
-// dlrow wolleh
+// "dlrow wolleh"
 ```
 
 # LISECE

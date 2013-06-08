@@ -14,7 +14,7 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-		"test" : "tap test/*.js"   
+		"test" : "node test/*.js"   
   },
   "main": "strp.js",
   "dependencies": {

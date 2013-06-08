@@ -26,3 +26,18 @@ var rtrim = strp.rtrim = function(str) {
 var trim = strp.trim = function(str) {
 	return str.replace(/^\s+|\s+$/g,"");
 };
+
+var join = strp.join = function() {
+	var args = Array.prototype.slice.apply( arguments);
+	return args.join("");
+};
+
+var joins = strp.joins = function() {
+	var args = Array.prototype.slice.apply(arguments);
+	return args.join(" ");
+};
+
+var joinln = strp.joinln = function() {
+	var args = Array.prototype.slice.apply(arguments);
+	return args.join("\n");
+};

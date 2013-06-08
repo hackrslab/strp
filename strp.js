@@ -65,3 +65,17 @@ var rpad = strp.rpad = function(str,maxlength,padstr) {
 	}
 	return s;
 };
+
+var lcfirst = strp.lcfirst = function(str) {
+	 var s = str,
+       first = s.charAt(0).toLowerCase();
+   
+   return first.concat(s.slice(1));
+};
+
+var ucfirst = strp.ucfirst = function(str) {
+	 var s = str,
+       first = s.charAt(0).toUpperCase();
+   
+   return first.concat(s.slice(1));
+};

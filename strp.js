@@ -41,3 +41,27 @@ var joinln = strp.joinln = function() {
 	var args = Array.prototype.slice.apply(arguments);
 	return args.join("\n");
 };
+
+var lpad = strp.lpad = function(str,maxlength,padstr) {
+	var i = 0,
+			s = str;
+
+	if( str.length < maxlength) {
+		for ( ; i < (maxlength - str.length) ; i++ ) {
+			s = padstr.charAt(0).concat(s);
+		}
+	}
+  return s;
+};
+
+var rpad = strp.rpad = function(str,maxlength,padstr) {
+	var i = 0,		
+			s = str;
+
+	if( str.length < maxlength) {
+		for ( ; i < (maxlength - str.length) ; i++ ) {
+			s  = s.concat(padstr.charAt(0));
+		}
+	}
+	return s;
+};

@@ -1,3 +1,6 @@
 # Change Logs
 
-## V0.0.1
+## V0.0.3 (13.06.11 GMT+09:00)
+
+* add `stripslashes` method
+* add `number_format` method

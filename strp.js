@@ -77,3 +77,24 @@ var ucfirst = strp.ucfirst = function(str) {
 var shuffle = strp.shuffle = function(str) {
 	return str.split("").sort(function() { return 0.5 - Math.random();}).join("");
 };
+
+
+var stripslashes = strp.stripslashes = function(str) {
+  return str.replace(/\\(.?)/g, function (s,slashes) {
+    
+    switch (slashes) {
+    case '\\':
+      return '\\';
+    case '0':
+      return '\u0000';
+    case '':
+      return '';
+    default:
+      return slashes;
+    }
+  });
+};
+
+
+
+

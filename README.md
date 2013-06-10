@@ -14,7 +14,7 @@ $ npm install strp
 $ npm update strp
 ```
 
-## Usase 
+## Usage 
 
 ### require module 
 
@@ -33,7 +33,7 @@ strp.rtrim('hello world   ');
 ### ltrim
 
 ```
-strp.rtrim('    hello world');
+strp.ltrim('    hello world');
 
 // "hello world"
 ```
@@ -43,7 +43,7 @@ strp.rtrim('    hello world');
 ```
 strp.rtrim('    hello world    ');
 
-// "hellow orld"
+// "hello world"
 ```
 
 ### join
@@ -98,7 +98,7 @@ strp.ucfirst('hello world');
 ### lcfirst
 
 ```
-strp.ucfirst('HELLO WORLD');
+strp.lcfirst('HELLO WORLD');
 
 // "hELLO WORLD"
 ```
@@ -116,7 +116,7 @@ strp.shuffle('hello world');
 ```
 strp.reverse('hello world');
 
-// "dlrow wolleh"
+// "dlrow olleh"
 ```
 
 ## stripslashes

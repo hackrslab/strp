@@ -95,6 +95,15 @@ var stripslashes = strp.stripslashes = function(str) {
   });
 };
 
+var number_format = strp.number_format = function(str) {
+	if(isNaN(str)) return NaN;
+	if (typeof str === 'number') str = str.toString();
+	
+	var numberData = str.split(".");
+  
+  return numberData[0].replace(/\B(?=(\d{3})+(?=$))/g, ",") + (numberData[1] ? "." + numberData[1] : ""); 
+};
+
 
 
 

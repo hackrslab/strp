@@ -119,6 +119,23 @@ strp.reverse('hello world');
 // "dlrow wolleh"
 ```
 
+## stripslashes
+
+```
+strp.stripslashes('strp is insanehong\\\'s project');
+
+// "strp is insanehong\'s project"
+```
+
+## number_format
+
+```
+strp.number_format('1234567');
+
+// "1,234,567"
+``
+
+
 # LISECE
 
 The MIT License

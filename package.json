@@ -1,7 +1,7 @@
 {
   "name": "strp",
   "description": "strp is useful String object extensions",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "insanehong <insanehong@gmail.com>",
   "repository": {
     "type": "git",

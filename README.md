@@ -133,7 +133,7 @@ strp.stripslashes('strp is insanehong\\\'s project');
 strp.number_format('1234567');
 
 // "1,234,567"
-``
+```
 
 
 # LICENSE

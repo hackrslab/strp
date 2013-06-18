@@ -136,7 +136,7 @@ strp.number_format('1234567');
 ``
 
 
-# LISECE
+# LICENSE
 
 The MIT License
 

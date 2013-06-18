@@ -1,14 +1,14 @@
 {
   "name": "strp",
   "description": "strp is useful String object extensions",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "insanehong <insanehong@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git@github.com/insanehong/strp.git"
+    "url": "git@github.com/hackrslab/strp.git"
   },
   "bugs": {
-    "url": "http://github.com/insanehong/strp/issues"
+    "url": "http://github.com/hackrslab/strp/issues"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -28,7 +28,7 @@
 	"licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/insanehong/gig/blob/master/LICENSE"
+      "url": "https://github.com/hackrslab/gig/blob/master/LICENSE"
     }
   ],
   "keywords": ["strp","str","string"]
